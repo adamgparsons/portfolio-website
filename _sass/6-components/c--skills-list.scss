@@ -1,0 +1,28 @@
+// ========================================================
+// @components: skills-list
+// ========================================================
+//
+
+.skills-list {
+    font-size: $font-size5;
+    font-weight: $font-regular;
+  
+    display: none;
+    align-self: flex-end;
+    padding-bottom: $padding5;
+  
+    ul {
+      padding-left: $padding0;
+  
+      li {
+        list-style-type: none;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  @include bp-large {
+    .skills-list {
+      display: block;
+    }
+  }

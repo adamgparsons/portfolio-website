@@ -1,0 +1,24 @@
+// ========================================================
+// @utilities: containers
+// ========================================================
+//
+
+.container {
+  padding: $padding3 $padding3 $padding5 $padding3;
+  margin: $margin0 auto;
+}
+
+@include bp-not-small {
+  .container {
+    padding-top: $padding5;
+    padding-bottom: $padding5;
+  }
+}
+
+@include bp-large {
+  .container {
+    max-width: $max-width8;
+    padding-top: $padding5;
+    padding-bottom: $padding5;
+  }
+}

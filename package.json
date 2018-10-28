@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server '_site' --files '_site'"
+  },
+  "author": "Adam Parsons",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "node-sass": "^4.9.4"
+  }
+}

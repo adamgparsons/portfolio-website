@@ -1,0 +1,29 @@
+// ========================================================
+// @settings: breakpoints
+// ========================================================
+//
+
+$bp-medium-min: 48em;
+$bp-medium-max: 64em;
+$bp-large-min:  64em;
+
+@mixin bp-not-small {
+    @media screen and (min-width: $bp-medium-min){
+    @content
+    }
+}
+
+@mixin bp-medium {
+    @media screen and (min-width: $bp-medium-min) and (max-width: $bp-medium-max){
+    @content
+    }
+}
+
+@mixin bp-large {
+    @media screen and (min-width: $bp-large-min){
+    @content
+    }
+}
+
+
+
