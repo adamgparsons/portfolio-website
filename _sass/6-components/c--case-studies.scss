@@ -4,26 +4,26 @@
 //
 
 .case-study {
-    margin-top: $margin4;
-  
-    p {
-      margin-bottom: $margin4;
-    }
-  }
+  margin-top: $margin4;
 
-  @include bp-large {
-    .case-study {
+  p {
+    margin-bottom: $margin4;
+  }
+}
+
+@include bp-large {
+  .case-study {
+    max-width: $max-width7;
+
+    h3 {
       max-width: $max-width7;
-
-      h3 {
-        max-width: $max-width7;
-      }
     }
   }
+}
 
-  .divider {
-    max-width: $max-width100;
-    border-bottom: 1px solid $light-grey;
-    margin-top: $margin5;
-    margin-bottom: $margin5;
-  }
+.divider {
+  max-width: $max-width100;
+  border-bottom: 1px solid $light-grey;
+  margin-top: $margin5;
+  margin-bottom: $margin5;
+}

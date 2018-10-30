@@ -7,18 +7,17 @@
 // http://nicolasgallagher.com/micro-clearfix-hack/
 //
 
-
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 // For IE 6/7
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
