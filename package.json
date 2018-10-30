@@ -6,8 +6,8 @@
   "scripts": {
     "build-jekyll": "jekyll build",
     "watch-all": "npm-run-all --parallel watch-css watch-html",
-    "watch-css": "onchange './_sass/*.scss' -- npm run build-jekyll",
-    "watch-html": "onchange './_layouts/*.html' './_includes/*.html' './_posts/*.html' -- npm run build-jekyll",
+    "watch-css": "onchange './app/_sass/*.scss' -- npm run build-jekyll",
+    "watch-html": "onchange './app/_layouts/*.html' './app/_includes/*.html' './app/_posts/*.html' -- npm run build-jekyll",
     "run-serve": "npm-run-all --parallel serve watch-all",
     "serve": "browser-sync start --server '_site' --files '_site'",
     "buildcss": "node-sass --output-style expanded _sass/main.scss assets/main.css"
