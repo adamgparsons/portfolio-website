@@ -2,33 +2,79 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<section class="hero">
+  <div class="container">
+    <div>
+      <h1>Adam Parsons</h1>
+      <h3>UX designer based in London.</h3>
+      <h4> My focus is solving real world problems for users. I help organistaions do this by researching, designing
+        and testing new ideas with users.</h4>
+      <p><img src='https://svgshare.com/i/8us.svg' title='' class="location-pin" /> Currently at Citizens Advice </p>
+    </div>
+    <div class="skills-list">
+      <ul>
+        <li>User research</li>
+        <li>Journey mapping</li>
+        <li>Wireframing</li>
+        <li>Paper prototyping</li>
+        <li>Prototyping with code</li>
+        <li>Usability testing</li>
+      </ul>
+    </div>
 
-  {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  </div>
+</section>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+<!--Case studies  -->
 
+<section class="case-studies">
+  <div class="container">
+    <h2>Case studies</h2>
+
+    <div class="case-study">
+      <h3>Citizens Advice design system</h3>
+      <p class> Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+        impression. <a href="#">Read more</a></p>
+    </div>
+
+    <!--divider line      -->
+    <div class="divider"></div>
+
+    <div class="case-study">
+      <h3>Redesigning how the British Red Cross is lending wheelchairs</h3>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+        <a href="#">Read more</a></p>
+    </div>
+  </div>
+</section>
+
+<!--Client section  -->
+
+<div class="clients">
+  <div class="container">
+    <h2 class>Selected clients</h2>
+    <div class="client-logos">
+      <img src='https://svgshare.com/i/8rR.svg' title='' />
+      <img src='https://svgshare.com/i/8rF.svg' title='' />
+      <img src='https://svgshare.com/i/8s5.svg' title='' />
+      <img src='https://svgshare.com/i/8ru.svg' title='' />
+      <img src='https://svgshare.com/i/8rn.svg' title='' />
+    </div>
+  </div>
+</div>
+
+<!--Get in touch-->
+
+<div class="get-in-touch">
+  <div class="container">
+    <h2>Get in touch</h2>
+    <h4>If you're looking for a someone to work with on a project or even just a chat about an idea please get in
+      touch:</h4>
+    <a href="mailto:adamgeorgeparsons@gmail.com">adamgeorgeparsons@gmail.com</a>
+  </div>
+</div>
+
+<div class="background">
+  <img src='https://svgshare.com/i/8uZ.svg' title='' />
 </div>

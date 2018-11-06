@@ -10,8 +10,8 @@
 @import "1-settings/s--colors";
 @import "1-settings/s--font-sizes";
 @import "1-settings/s--font-weights";
-@import "1-settings/s--max-widths";
 @import "1-settings/s--spacing";
+@import "1-settings/s--widths";
 
 // TOOLS: default mixins and functions
 @import "2-tools/t--clearfix";
@@ -31,6 +31,8 @@
 @import "6-components/c--background";
 @import "6-components/c--case-studies";
 @import "6-components/c--clients";
+@import "6-components/c--footer";
+@import "6-components/c--skills-list";
 @import "6-components/c--get-in-touch";
 @import "6-components/c--hero";
 @import "6-components/c--skills-list";
