@@ -4,7 +4,7 @@
   "description": "*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.",
   "main": "index.js",
   "scripts": {
-    "build-jekyll": "jekyll build",
+    "build-jekyll": "jekyll build --watch",
     "watch-all": "npm-run-all --parallel watch-css watch-html",
     "watch-css": "onchange './app/_sass/*.scss' -- npm run build-jekyll",
     "watch-html": "onchange './app/_layouts/*.html' './app/_includes/*.html' './app/_posts/*.html' -- npm run build-jekyll",

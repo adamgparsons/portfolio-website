@@ -22,3 +22,19 @@
     padding-bottom: $padding5;
   }
 }
+
+.container-posts {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  ul,
+  blockquote,
+  code {
+    max-width: $max-width7;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
