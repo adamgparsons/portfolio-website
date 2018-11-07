@@ -3,10 +3,20 @@
 // ========================================================
 //
 
-.get-in-touch .container {
+.get-in-touch {
+  .container {
     padding-bottom: $padding0;
   }
 
-.get-in-touch a {
+  p {
+    font-size: $font-size4;
+    font-weight: $font-regular;
+    line-height: 1.25;
+    max-width: $max-width7;
+    margin-bottom: $margin4;
+  }
+
+  a {
     font-size: $font-size4;
   }
+}

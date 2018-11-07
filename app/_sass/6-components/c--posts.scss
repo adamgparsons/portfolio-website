@@ -3,8 +3,31 @@
 // ========================================================
 //
 
-.container-posts img {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+.container-posts {
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  h1 {
+    margin-bottom: $margin4;
+  }
+
+  h2 {
+    font-size: $font-size2;
+    font-weight: $font-regular;
+    margin-top: $margin5;
+    margin-bottom: $margin4;
+    line-height: 1.25;
+    text-transform: none;
+  }
+
+  h3 {
+    font-size: $font-size4;
+    font-weight: $font-bold;
+    line-height: 1.5;
+    margin-bottom: $margin0;
+    margin-top: $margin4;
+  }
 }

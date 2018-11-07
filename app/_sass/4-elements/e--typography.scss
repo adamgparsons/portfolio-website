@@ -10,10 +10,14 @@ body {
 }
 
 h1 {
-  font-size: $font-size2;
+  font-size: $font-size1;
   font-weight: $font-bold;
   margin-top: $margin5;
   margin-bottom: $margin1;
+}
+
+.h1-light {
+  font-weight: $font-light;
 }
 
 h2 {
@@ -47,7 +51,8 @@ h5 {
   margin-top: $margin6;
 }
 
-p {
+p,
+li {
   font-size: $font-size4;
   font-weight: $font-regular;
   line-height: 1.5;

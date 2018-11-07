@@ -11,23 +11,23 @@ The British Red Cross Mobility Aids is a volunteer run, donation based service p
 
 Up until recently, Mobility Aids had been operating the same way for the past 50 years. The service is now going through a transformation with the main goal of increasing its user reach. This was going to be done through the following workstreams:
 
-#### Shift towards delivery model
+### Shift towards delivery model
 
 A national delivery model was being introduced to provide for users in remote areas or those who can’t collect a wheelchair.
 
-#### Standardisation of processes
+### Standardisation of processes
 
 Over the years many of the Mobility Aids centres have developed their own processes which has lead to an inconsistency across the service. By standardising the processes, each region could ensure it was running efficiently as possible.
 
-#### Implementing an inventory system
+### Implementing an inventory system
 
 The paper/spreadsheet system has been problematic. A service-wide inventory system could ensure centres have enough stock and reduce admin time.
 
-#### Online ordering
+### Online ordering
 
 Currently you can only request a wheelchair on the British Red Cross website. This was set to change by adding the functionality to either book a wheelchair for either delivery or collection.
 
-#### Service Design
+### Service Design
 
 Several of my colleagues from the digital team and I were tasked with finding out how to better help the users of the service using service design.This was one of the first examples of service design used in the British Red Cross. My team and I found that the success of this project depended on working with these other projects.
 
@@ -35,15 +35,15 @@ Several of my colleagues from the digital team and I were tasked with finding ou
 
 I have been a UX designer on the project since the outset in November 2016. My role included:
 
-## User research
+### User research
 
 I travelled around the UK to speak to users, volunteers and staff to get an understanding of the service. Discovering pain points and opportunities helped shape the new service.
 
-#### Working with and within the service
+### Working with and within the service
 
 Running workshops with staff to get a shared understanding of problems need tackling.
 
-#### Prototyping and testing
+### Prototyping and testing
 
 I designed prototypes to test assumptions and inform what the service could look like. Presenting them with user feedback to stakeholders helped gain alignment and drove decision making.
 
@@ -79,32 +79,32 @@ The prototype:
 <img src="/assets/images/brc/brc3.png" alt="Discovery prototype">
 </div>
 
-### Discovery insights
+## Discovery insights
 
 These are the key insights that informed what we would do in alpha:
 
-#### Users don’t know they can get a wheelchair, unless they speak to the Red Cross
+### Users don’t know they can get a wheelchair, unless they speak to the Red Cross
 
 Users needed to ring up to find out if, how and when they could get a wheelchair. This is a problem for users as the centres are generally open for a handful of hours a week.
 
 > “My husband got out of hospital on Friday. I tried calling but you were closed.”
 > -Service user
 
-#### Users keep a wheelchair longer than they need it
+### Users keep a wheelchair longer than they need it
 
 Users would often forget or put off returning a wheelchair. This could prevent someone else from getting one in peak season.
 
 > “I only needed the wheelchair for the weekend but kept it for a month.”
 > -Service user
 
-#### Users don’t know how much to donate
+### Users don’t know how much to donate
 
 Users are unsure how long they'll need the wheelchair and prefer to donate when returning it.
 
 > “I’ll give more after I know how long I need it for.”
 > -Service user
 
-#### Users recommend the service to other users
+### Users recommend the service to other users
 
 Users were happy to recommend the service but they can only do this by word of mouth.
 
@@ -135,7 +135,7 @@ By allowing a user to order a wheelchair online you could help them understand i
 
 Our goal was to explore ways users could order a wheelchair online and what tech/processes would be needed to support it. We created three prototypes:
 
-#### Prototype 1: Borrow and return a wheelchair
+### Prototype 1: Borrow and return a wheelchair
 
 This HTML prototype allowed users to borrow a wheelchair online. It helped us answer questions around demand for delivery, asking for donation and user confidence in selecting the correct wheelchair.
 
@@ -143,7 +143,7 @@ This HTML prototype allowed users to borrow a wheelchair online. It helped us an
 <img src="/assets/images/brc/brc5.png" alt="Prototype 1">
 </div>
 
-#### Prototype 2: When and where users can get a wheelchair
+### Prototype 2: When and where users can get a wheelchair
 
 We tested this HTML prototype to find out if it would be enough to only show users stock availability. We discovered users felt more confident in getting a wheelchair when booking online.
 
@@ -151,7 +151,7 @@ We tested this HTML prototype to find out if it would be enough to only show use
 <img src="/assets/images/brc/brc6.png" alt="Prototype 2">
 </div>
 
-#### Prototype 3: Wheelchair checkout for volunteers
+### Prototype 3: Wheelchair checkout for volunteers
 
 This Invision prototype allows a volunteer to confirm a user has collected a wheelchair. This was our first attempt at designing an alternative to the inventory system interface the volunteers have to use. Some volunteers were nervous to try it out but all could complete the checkout processes quickly and unaided.
 
@@ -159,9 +159,9 @@ This Invision prototype allows a volunteer to confirm a user has collected a whe
 <img src="/assets/images/brc/brc7.png" alt="Prototype 3">
 </div>
 
-### Alpha Findings
+## Alpha Findings
 
-#### More users chose to collect a wheelchair
+### More users chose to collect a wheelchair
 
 We ran several rounds of usability and online click tests with prototypes in a variety of scenarios. In all the tests users chose to collect a wheelchair rather than get it delivered.
 
@@ -175,7 +175,7 @@ During testing, some users preferred to get in touch with the service if they we
 > “I’d call up at this point. I prefer to speak to someone because it makes me feel more comfortable.”
 > -Service user
 
-#### Volunteers found the inventory system difficult to use
+### Volunteers found the inventory system difficult to use
 
 Volunteers required training and a considerable amount of hours to build confidence in using the system. We also learnt through testing our checkout prototype with volunteers that we could design something much more suitable for them to use.
 
@@ -196,34 +196,14 @@ The aim for beta will be to build an end-to-end version of the service so we can
 
 ## Learnings so far
 
-#### Everybody is already doing service design
+### Everybody is already doing service design
 
 Throughout the course of this project I met with volunteers and staff members who had designed their own processes in isolation. By including them into the project where possible we could use their experience to design the service together.
 
-#### Pushing the boundaries with prototypes
+### Pushing the boundaries with prototypes
 
 In alpha our prototypes tested well with users. If I were to do this project again I'd create prototypes to test more radical ideas. The chance of failure would've increased but we could have learnt more and had a more innovative result.
 
 <div>
 <img src="/assets/images/brc/brc8.jpg" alt="Workshop post-it notes">
 </div>
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

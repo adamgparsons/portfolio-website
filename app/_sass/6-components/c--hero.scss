@@ -4,24 +4,24 @@
 //
 
 .hero {
-    background-color: $black;
-    color: $white;
-  
-    .container {
-      display: flex;
-  
-      h3 {
-        font-weight: $font-light;
-      }
+  background-color: $black;
+  color: $white;
+
+  .container {
+    display: flex;
+
+    h3 {
+      font-weight: $font-light;
     }
   }
+}
 
-  @include bp-large {
-    .hero h4 {
-      margin-bottom: $margin7;
-    }
+@include bp-large {
+  .hero h4 {
+    margin-bottom: $margin7;
   }
+}
 
-  .location-pin {
-    padding-right: $padding1;
-  }
+.location-pin {
+  padding-right: $padding1;
+}
