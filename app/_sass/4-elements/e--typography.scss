@@ -5,66 +5,96 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Chivo", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: $black;
 }
 
 h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: $font-size1;
-  font-weight: $font-bold;
+  font-weight: $font-semi-bold;
+  letter-spacing: -0.02em;
   margin-top: $margin5;
   margin-bottom: $margin1;
 }
+
+// new h1
+// font-family: Montserrat;
+// font-style: normal;
+// font-weight: 600;
+// line-height: 57px;
+// font-size: 48px;
+// letter-spacing: -0.02em;
 
 .h1-light {
   font-weight: $font-light;
 }
 
 h2 {
-  font-size: $font-size4;
-  font-weight: $font-regular;
+  font-family: "Montserrat", sans-serif;
+  font-size: $font-size2;
+  font-weight: $font-light;
   text-transform: uppercase;
   margin-top: $margin5;
   margin-bottom: $margin4;
 }
 
+// New h2
+// font-family: Montserrat;
+// font-style: normal;
+// font-weight: 300;
+// font-size: 36px;
+
 h3 {
-  font-size: $font-size2;
-  font-weight: $font-regular;
+  font-family: "Montserrat", sans-serif;
+  font-size: $font-size4;
+  font-weight: $font-semi-bold;
   margin-top: $margin0;
   margin-bottom: $margin4;
   line-height: 1.25;
 }
 
-h4 {
-  font-size: $font-size4;
-  font-weight: $font-regular;
-  line-height: 1.25;
-  max-width: $max-width7;
-  margin-bottom: $margin4;
-}
+// h3
+// font-family: Montserrat;
+// font-style: normal;
+// font-weight: 600;
+// line-height: 34px;
+// font-size: 20px;
 
-h5 {
-  font-size: $font-size6;
-  font-weight: $font-regular;
-  color: $grey;
-  margin-top: $margin6;
-}
+// Not needed anymore
+// h4 {
+//   font-size: $font-size4;
+//   font-weight: $font-regular;
+//   line-height: 1.25;
+//   max-width: $max-width7;
+//   margin-bottom: $margin4;
+// }
+
+// Not needed anymore
+// h5 {
+//   font-size: $font-size6;
+//   font-weight: $font-regular;
+//   color: $grey;
+//   margin-top: $margin6;
+// }
 
 p,
 li {
   font-size: $font-size4;
   font-weight: $font-regular;
   line-height: 1.5;
+  color: red;
 }
+
+// new p
+// font-family: Source Sans Pro;
+// font-style: normal;
+// font-weight: normal;
+// line-height: 28px;
+// font-size: 16px;
 
 @include bp-large {
   p {
     max-width: $max-width7;
   }
-}
-
-a {
-  text-decoration: underline;
-  color: $black;
 }

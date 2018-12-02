@@ -2,8 +2,8 @@
 // @elements: links
 // ========================================================
 //
-
 a {
-  text-decoration: underline;
+  //   border-bottom: 2px solid currentColor;
+  padding-bottom: 1px;
   color: $black;
 }
