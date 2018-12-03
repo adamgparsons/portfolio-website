@@ -44,10 +44,5 @@ li {
   font-size: $font-size4;
   font-weight: $font-regular;
   line-height: 1.5;
-}
-
-@include bp-large {
-  p {
-    max-width: $max-width7;
-  }
+  max-width: 40rem;
 }

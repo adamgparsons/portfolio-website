@@ -4,25 +4,25 @@
 //
 
 .skills-list {
-    font-size: $font-size5;
-    font-weight: $font-regular;
-  
-    display: none;
-    align-self: flex-end;
-    padding-bottom: $padding5;
-  
-    ul {
-      padding-left: $padding0;
-  
-      li {
-        list-style-type: none;
-        line-height: 1.5;
-      }
-    }
-  }
+  font-size: $font-size5;
+  font-weight: $font-regular;
 
-  @include bp-large {
-    .skills-list {
-      display: block;
+  display: none;
+  align-self: flex-end;
+  padding: 24rem $padding5 0 $padding5;
+
+  ul {
+    padding-left: $padding0;
+
+    li {
+      list-style-type: none;
+      line-height: 1.5;
     }
   }
+}
+
+@include bp-large {
+  .skills-list {
+    display: block;
+  }
+}
