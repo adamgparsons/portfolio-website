@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://adamparsons.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://adamparsons.me/" rel="alternate" type="text/html" /><updated>2018-12-07T17:13:39+00:00</updated><id>https://adamparsons.me/feed.xml</id><title type="html">Adam Parsons</title><subtitle>Adam Parsons UX designer based in London.</subtitle><entry><title type="html">Redesigning how the British Red Cross is lending wheelchairs</title><link href="https://adamparsons.me/2018/10/22/british-red-cross.html" rel="alternate" type="text/html" title="Redesigning how the British Red Cross is lending wheelchairs" /><published>2018-10-22T15:33:48+01:00</published><updated>2018-10-22T15:33:48+01:00</updated><id>https://adamparsons.me/2018/10/22/british-red-cross</id><content type="html" xml:base="https://adamparsons.me/2018/10/22/british-red-cross.html">&lt;p&gt;The British Red Cross Mobility Aids is a volunteer run, donation based service providing short-term wheelchair loans for over 100 years. Unfortunately the NHS doesn’t give wheelchairs for patients that need one for less than six months. The Red Cross helps fill this gap by providing ⅔ of all short-term wheelchair loans in the UK.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://adamparsons.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://adamparsons.me/" rel="alternate" type="text/html" /><updated>2018-12-07T17:16:09+00:00</updated><id>https://adamparsons.me/feed.xml</id><title type="html">Adam Parsons</title><subtitle>Adam Parsons UX designer based in London.</subtitle><entry><title type="html">Redesigning how the British Red Cross is lending wheelchairs</title><link href="https://adamparsons.me/2018/10/22/british-red-cross.html" rel="alternate" type="text/html" title="Redesigning how the British Red Cross is lending wheelchairs" /><published>2018-10-22T15:33:48+01:00</published><updated>2018-10-22T15:33:48+01:00</updated><id>https://adamparsons.me/2018/10/22/british-red-cross</id><content type="html" xml:base="https://adamparsons.me/2018/10/22/british-red-cross.html">&lt;p&gt;The British Red Cross Mobility Aids is a volunteer run, donation based service providing short-term wheelchair loans for over 100 years. Unfortunately the NHS doesn’t give wheelchairs for patients that need one for less than six months. The Red Cross helps fill this gap by providing ⅔ of all short-term wheelchair loans in the UK.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-challenge&quot;&gt;The challenge&lt;/h2&gt;
 
@@ -9,7 +9,7 @@
 &lt;p&gt;I was a UX designer on the project responsible for conducting user research, prototyping and testing new ideas.&lt;/p&gt;
 
 &lt;div class=&quot;image-holder&quot;&gt;
-&lt;img src=&quot;assets/images/brc/brc1.jpg&quot; alt=&quot;Workshop with volunteers&quot; /&gt;
+&lt;img src=&quot;/assets/images/brc/brc1.jpg&quot; alt=&quot;Workshop with volunteers&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;discovery&quot;&gt;Discovery&lt;/h2&gt;
@@ -17,7 +17,7 @@
 &lt;p&gt;In the discovery phase our aim was to find out who the service users are and how well their needs are met. Over 4 weeks our team interviewed users and staff, ran workshops, reviewed analytics, mapped out the existing service and created a prototype. This provided us with key insights that informed what we’d do in alpha:&lt;/p&gt;
 
 &lt;div class=&quot;image-holder&quot;&gt;
-&lt;img src=&quot;assets/images/brc/brc3.png&quot; alt=&quot;Discovery prototype&quot; /&gt;
+&lt;img src=&quot;/assets/images/brc/brc3.png&quot; alt=&quot;Discovery prototype&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;users-dont-know-they-can-get-a-wheelchair-unless-they-speak-to-the-red-cross&quot;&gt;Users don’t know they can get a wheelchair, unless they speak to the Red Cross&lt;/h3&gt;
@@ -65,7 +65,7 @@
 &lt;p&gt;This HTML prototype allowed users to borrow a wheelchair online. It helped us answer questions around demand for delivery, asking for donation and user confidence in selecting the correct wheelchair.&lt;/p&gt;
 
 &lt;div class=&quot;image-holder&quot;&gt;
-&lt;img src=&quot;assets/images/brc/brc5.png&quot; alt=&quot;Prototype 1&quot; /&gt;
+&lt;img src=&quot;/assets/images/brc/brc5.png&quot; alt=&quot;Prototype 1&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;prototype-2-when-and-where-users-can-get-a-wheelchair&quot;&gt;Prototype 2: When and where users can get a wheelchair&lt;/h3&gt;
@@ -73,7 +73,7 @@
 &lt;p&gt;We tested this HTML prototype to find out if it would be enough to only show users stock availability. We discovered users felt more confident in getting a wheelchair when reserving one online.&lt;/p&gt;
 
 &lt;div class=&quot;image-holder&quot;&gt;
-&lt;img src=&quot;assets/images/brc/brc6.png&quot; alt=&quot;Prototype 2&quot; /&gt;
+&lt;img src=&quot;/assets/images/brc/brc6.png&quot; alt=&quot;Prototype 2&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;prototype-3-wheelchair-checkout-for-volunteers&quot;&gt;Prototype 3: Wheelchair checkout for volunteers&lt;/h3&gt;
@@ -81,7 +81,7 @@
 &lt;p&gt;This Invision prototype allows a volunteer to confirm a user has collected a wheelchair. This was our first attempt at designing an alternative to the default inventory system interface the volunteers have to use. Some volunteers were nervous to try it out but all could complete the checkout processes quickly and unaided.&lt;/p&gt;
 
 &lt;div class=&quot;image-holder&quot;&gt;
-&lt;img src=&quot;assets/images/brc/brc7.png&quot; alt=&quot;Prototype 3&quot; /&gt;
+&lt;img src=&quot;/assets/images/brc/brc7.png&quot; alt=&quot;Prototype 3&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;more-users-chose-to-collect-a-wheelchair&quot;&gt;More users chose to collect a wheelchair&lt;/h3&gt;
@@ -109,5 +109,5 @@
 &lt;p&gt;The aim for beta will be to build an end-to-end version of the service so we can further learn from users in a live environment. By limiting the amount of transactions, we can make changes to the service where needed before trying to scale nationwide.&lt;/p&gt;
 
 &lt;div class=&quot;image-holder&quot;&gt;
-&lt;img src=&quot;assets/images/brc/brc8.jpg&quot; alt=&quot;Workshop post-it notes&quot; /&gt;
+&lt;img src=&quot;/assets/images/brc/brc8.jpg&quot; alt=&quot;Workshop post-it notes&quot; /&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">The British Red Cross Mobility Aids is a volunteer run, donation based service providing short-term wheelchair loans for over 100 years. Unfortunately the NHS doesn’t give wheelchairs for patients that need one for less than six months. The Red Cross helps fill this gap by providing ⅔ of all short-term wheelchair loans in the UK.</summary></entry></feed>
