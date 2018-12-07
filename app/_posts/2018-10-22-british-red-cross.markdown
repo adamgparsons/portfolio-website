@@ -16,7 +16,7 @@ Up until recently, Mobility Aids had been operating the same way for the past 50
 I was a UX designer on the project responsible for conducting user research, prototyping and testing new ideas.
 
 <div class="image-holder">
-<img src="/assets/images/brc/brc1.jpg" alt="Workshop with volunteers">
+<img src="assets/images/brc/brc1.jpg" alt="Workshop with volunteers">
 </div>
 
 
@@ -25,7 +25,7 @@ I was a UX designer on the project responsible for conducting user research, pro
 In the discovery phase our aim was to find out who the service users are and how well their needs are met. Over 4 weeks our team interviewed users and staff, ran workshops, reviewed analytics, mapped out the existing service and created a prototype. This provided us with key insights that informed what we'd do in alpha:
 
 <div class="image-holder">
-<img src="/assets/images/brc/brc3.png" alt="Discovery prototype">
+<img src="assets/images/brc/brc3.png" alt="Discovery prototype">
 </div>
 
 ### Users don’t know they can get a wheelchair, unless they speak to the Red Cross
@@ -68,7 +68,7 @@ Our goal was to explore ways users could order a wheelchair online and what tech
 This HTML prototype allowed users to borrow a wheelchair online. It helped us answer questions around demand for delivery, asking for donation and user confidence in selecting the correct wheelchair.
 
 <div class="image-holder">
-<img src="/assets/images/brc/brc5.png" alt="Prototype 1">
+<img src="assets/images/brc/brc5.png" alt="Prototype 1">
 </div>
 
 ### Prototype 2: When and where users can get a wheelchair
@@ -76,7 +76,7 @@ This HTML prototype allowed users to borrow a wheelchair online. It helped us an
 We tested this HTML prototype to find out if it would be enough to only show users stock availability. We discovered users felt more confident in getting a wheelchair when reserving one online.
 
 <div class="image-holder">
-<img src="/assets/images/brc/brc6.png" alt="Prototype 2">
+<img src="assets/images/brc/brc6.png" alt="Prototype 2">
 </div>
 
 ### Prototype 3: Wheelchair checkout for volunteers
@@ -85,7 +85,7 @@ This Invision prototype allows a volunteer to confirm a user has collected a whe
 
 
 <div class="image-holder">
-<img src="/assets/images/brc/brc7.png" alt="Prototype 3">
+<img src="assets/images/brc/brc7.png" alt="Prototype 3">
 </div>
 
 ### More users chose to collect a wheelchair
@@ -111,5 +111,5 @@ The aim for beta will be to build an end-to-end version of the service so we can
 
 
 <div class="image-holder">
-<img src="/assets/images/brc/brc8.jpg" alt="Workshop post-it notes">
+<img src="assets/images/brc/brc8.jpg" alt="Workshop post-it notes">
 </div>
