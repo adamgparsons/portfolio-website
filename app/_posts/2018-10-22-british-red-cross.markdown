@@ -2,7 +2,6 @@
 layout: post
 title: "Redesigning how the British Red Cross is lending wheelchairs"
 date: 2018-10-22 15:33:48 +0100
-categories: jekyll update
 ---
 
 The British Red Cross Mobility Aids is a volunteer run, donation based service providing short-term wheelchair loans for over 100 years. Unfortunately the NHS doesn’t give wheelchairs for patients that need one for less than six months. The Red Cross helps fill this gap by providing ⅔ of all short-term wheelchair loans in the UK.
@@ -16,41 +15,36 @@ Up until recently, Mobility Aids had been operating the same way for the past 50
 
 I was a UX designer on the project responsible for conducting user research, prototyping and testing new ideas.
 
-<div>
+<div class="image-holder">
 <img src="/assets/images/brc/brc1.jpg" alt="Workshop with volunteers">
-</div>
-
-
-<div>
-<img src="/assets/images/brc/brc2.png" alt="Project approach">
 </div>
 
 
 ## Discovery
 
-In the discovery phase our aim was to find out who the service users are and how well their needs are met. Over 4 weeks our team interviewed users and staff, ran workshops, reviewed analytics, mapped out the existing service and created a prototype. These are the key insights that informed what we' do in alpha:
+In the discovery phase our aim was to find out who the service users are and how well their needs are met. Over 4 weeks our team interviewed users and staff, ran workshops, reviewed analytics, mapped out the existing service and created a prototype. This provided us with key insights that informed what we'd do in alpha:
 
-<div>
+<div class="image-holder">
 <img src="/assets/images/brc/brc3.png" alt="Discovery prototype">
 </div>
 
 ### Users don’t know they can get a wheelchair, unless they speak to the Red Cross
 
-Users needed to ring up to find out if, how and when they could get a wheelchair. This is a problem for users as the centres are generally open for a handful of hours a week.
+Users needed to ring up to find out if, how and when they could get a wheelchair. This can be a problem as centres are generally open for a handful of hours a week.
 
->“My husband got out of hospital on Friday. I tried calling but you were closed.” *-Service user*
+>My husband got out of hospital on Friday. I tried calling but you were closed. <span> - Service user</span>
 
 ### Users keep a wheelchair longer than they need it
 
 Users would often forget or put off returning a wheelchair. This could prevent someone else from getting one in peak season.
 
->“I only needed the wheelchair for the weekend but kept it for a month.” *-Service user*
+>I only needed the wheelchair for the weekend but kept it for a month. <span> - Service user</span>
 
 ### Users don’t know how much to donate
 
 Users are unsure how long they’ll need the wheelchair and prefer to donate when returning it.
 
->“I’ll give more after I know how long I need it for.” *-Service user*
+>I’ll give more after I know how long I need it for. <span> - Service user</span>
 
 
 ### Improving service awareness requires more research
@@ -73,7 +67,7 @@ Our goal was to explore ways users could order a wheelchair online and what tech
 
 This HTML prototype allowed users to borrow a wheelchair online. It helped us answer questions around demand for delivery, asking for donation and user confidence in selecting the correct wheelchair.
 
-<div>
+<div class="image-holder">
 <img src="/assets/images/brc/brc5.png" alt="Prototype 1">
 </div>
 
@@ -81,7 +75,7 @@ This HTML prototype allowed users to borrow a wheelchair online. It helped us an
 
 We tested this HTML prototype to find out if it would be enough to only show users stock availability. We discovered users felt more confident in getting a wheelchair when reserving one online.
 
-<div>
+<div class="image-holder">
 <img src="/assets/images/brc/brc6.png" alt="Prototype 2">
 </div>
 
@@ -90,7 +84,7 @@ We tested this HTML prototype to find out if it would be enough to only show use
 This Invision prototype allows a volunteer to confirm a user has collected a wheelchair. This was our first attempt at designing an alternative to the default inventory system interface the volunteers have to use. Some volunteers were nervous to try it out but all could complete the checkout processes quickly and unaided.
 
 
-<div>
+<div class="image-holder">
 <img src="/assets/images/brc/brc7.png" alt="Prototype 3">
 </div>
 
@@ -98,13 +92,13 @@ This Invision prototype allows a volunteer to confirm a user has collected a whe
 
 We ran several rounds of usability and online click tests with prototypes in a variety of scenarios. In all the tests users chose to collect a wheelchair rather than get it delivered.
 
->“I’d collect it to save money on the delivery cost and so I can see the wheelchair.” *-Service user*
+>I’d collect it to save money on the delivery cost and so I can see the wheelchair. <span> - Service user</span>
 
 ### Users could complete the process online but some preferred to do it offline
 
 During testing, some users preferred to get in touch with the service if they were unsure of something. We learnt that this is something we’ll need to accommodate for in beta.
 
->“I’d call up at this point. I prefer to speak to someone because it makes me feel more comfortable.” *-Service user*
+>I’d call up at this point. I prefer to speak to someone because it makes me feel more comfortable. <span> - Service user</span>
 
 
 ### Moving away from a delivery model
@@ -116,6 +110,6 @@ By the end of alpha, we had substantial evidence that the proposed wheelchair de
 The aim for beta will be to build an end-to-end version of the service so we can further learn from users in a live environment. By limiting the amount of transactions, we can make changes to the service where needed before trying to scale nationwide.
 
 
-<div>
+<div class="image-holder">
 <img src="/assets/images/brc/brc8.jpg" alt="Workshop post-it notes">
 </div>

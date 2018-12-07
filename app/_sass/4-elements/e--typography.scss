@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Source Sans Pro", sans-serif;
   color: $black;
+  font-size: $font-size4;
+  font-weight: $font-regular;
+  line-height: 1.5;
 }
 
 h1 {
@@ -15,7 +18,7 @@ h1 {
   font-weight: $font-semi-bold;
   letter-spacing: -0.02em;
   margin-top: $margin5;
-  margin-bottom: $margin1;
+  margin-bottom: $margin4;
 }
 
 .h1-light {
@@ -34,15 +37,51 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: $font-size4;
   font-weight: $font-semi-bold;
-  margin-top: $margin0;
-  margin-bottom: $margin4;
+  margin-top: $margin5;
+  margin-bottom: $margin0;
   line-height: 1.25;
 }
 
 p,
 li {
-  font-size: $font-size4;
-  font-weight: $font-regular;
-  line-height: 1.5;
   max-width: 40rem;
+}
+
+p {
+  margin-bottom: $padding3;
+}
+
+
+blockquote {
+  font-size: 1.4em;
+  margin: $margin4 auto;
+  font-style: italic;
+  color: #555555;
+  padding: $padding3 $padding4 $padding2 $padding5;
+  border-left: 8px solid $grey;
+  line-height: 1.6;
+  position: relative;
+  background: #EDEDED;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  color: $grey;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+blockquote::after {
+  content: '';
+}
+
+blockquote span {
+  display: block;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: $margin3;
 }

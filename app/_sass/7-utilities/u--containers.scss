@@ -24,6 +24,7 @@
 }
 
 .container-posts {
+
   h1,
   h2,
   h3,
@@ -33,7 +34,7 @@
   ul,
   blockquote,
   code {
-    max-width: $max-width7;
+    max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
   }

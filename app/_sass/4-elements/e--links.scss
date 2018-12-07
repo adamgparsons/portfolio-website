@@ -29,3 +29,21 @@ a {
     height: 100%;
   }
 }
+
+.a-dark {
+  color: $white;
+  border-bottom: none;
+
+
+  &::before {
+    background: $white;
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  &:hover::before {
+    height: 100%;
+  }
+}

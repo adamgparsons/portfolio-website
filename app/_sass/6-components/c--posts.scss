@@ -4,30 +4,33 @@
 //
 
 .container-posts {
-  img {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+  .image-holder {
+    text-align: center;
+    max-width: $max-width8;
+
+    img {
+      margin: $margin4 auto;
+      max-width: 100%;
+
+    }
+
   }
 
-  h1 {
-    margin-bottom: $margin4;
+}
+
+.top-bar {
+  height: 40px;
+  background-color: $black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  .container {
+    color: $white;
+    margin: 0 auto;
+    padding: 10px;
+
   }
 
-  h2 {
-    font-size: $font-size2;
-    font-weight: $font-regular;
-    margin-top: $margin5;
-    margin-bottom: $margin4;
-    line-height: 1.25;
-    text-transform: none;
-  }
-
-  h3 {
-    font-size: $font-size4;
-    font-weight: $font-bold;
-    line-height: 1.5;
-    margin-bottom: $margin0;
-    margin-top: $margin4;
-  }
 }
