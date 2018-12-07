@@ -8,12 +8,13 @@
   color: $white;
   background-image: url("../assets/images/background.svg");
   background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: top right;
+  background-size: 150%;
+  background-position: top left;
   background-attachment: fixed;
 
   .container {
     display: flex;
+    padding-bottom: $padding4;
 
     h3 {
       font-weight: $font-light;
@@ -24,6 +25,14 @@
     }
   }
 }
+
+@include bp-not-small {
+  .hero {
+    background-size: 70%;
+    background-position: top right;
+  }
+}
+
 
 @include bp-large {
   .hero h4 {

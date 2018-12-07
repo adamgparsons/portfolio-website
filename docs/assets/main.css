@@ -311,7 +311,7 @@ footer .container {
   font-weight: 400;
   display: none;
   align-self: flex-end;
-  padding: 24rem 4rem 0 4rem; }
+  padding: 24rem 4rem 1rem 4rem; }
   .skills-list ul {
     padding-left: 0; }
     .skills-list ul li {
@@ -337,16 +337,21 @@ footer .container {
   color: #fefefe;
   background-image: url("../assets/images/background.svg");
   background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: top right;
+  background-size: 150%;
+  background-position: top left;
   background-attachment: fixed; }
   .hero .container {
-    display: flex; }
+    display: flex;
+    padding-bottom: 2rem; }
     .hero .container h3 {
       font-weight: 300; }
     .hero .container .currently {
       margin-top: 4rem; }
 
+@media screen and (min-width: 48em) {
+  .hero {
+    background-size: 70%;
+    background-position: top right; } }
 @media screen and (min-width: 64em) {
   .hero h4 {
     margin-bottom: 16rem; } }
@@ -377,7 +382,7 @@ footer .container {
   font-weight: 400;
   display: none;
   align-self: flex-end;
-  padding: 24rem 4rem 0 4rem; }
+  padding: 24rem 4rem 1rem 4rem; }
   .skills-list ul {
     padding-left: 0; }
     .skills-list ul li {
@@ -388,7 +393,10 @@ footer .container {
   .skills-list {
     display: block; } }
 .container {
-  padding: 1rem 1rem 4rem 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
   margin: 0 auto; }
 
 @media screen and (min-width: 48em) {
