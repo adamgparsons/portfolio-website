@@ -199,7 +199,7 @@ p {
   margin-bottom: 1rem; }
 
 blockquote {
-  font-size: 1.4em;
+  font-size: 1.25rem;
   margin: 2rem auto;
   font-style: italic;
   color: #555555;
@@ -251,7 +251,8 @@ a {
 
 .a-dark {
   color: #fefefe;
-  border-bottom: none; }
+  border-bottom: none;
+  font-size: 1.25rem; }
   .a-dark::before {
     background: #fefefe; }
   .a-dark:hover {
@@ -371,11 +372,12 @@ footer .container {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
   .top-bar .container {
     color: #fefefe;
     margin: 0 auto;
-    padding: 10px; }
+    padding: 5px; }
 
 .skills-list {
   font-size: 1.25rem;
